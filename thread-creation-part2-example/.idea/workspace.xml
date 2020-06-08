@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d113d3b0-0307-4cf2-a688-7d655d371d2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyPractice.java" afterDir="false" />
+    <list default="true" id="d113d3b0-0307-4cf2-a688-7d655d371d2f" name="Default Changelist" comment="added a project to practice creating new threads">
+      <change afterPath="$PROJECT_DIR$/src/MultiExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +55,20 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyPractice">
+  <component name="RunManager" selected="Application.MultiExecutor">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="thread-creation-part2-example" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiExecutor" />
+      <module name="thread-creation-part2-example" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiExecutor" />
         <item itemvalue="Application.MyPractice" />
         <item itemvalue="Application.Main" />
       </list>
@@ -91,6 +99,14 @@
       <option name="presentableId" value="Default" />
       <updated>1553818572624</updated>
     </task>
+    <task id="LOCAL-00001" summary="added a project to practice creating new threads">
+      <created>1591562367797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591562367797</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,30 +120,38 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added a project to practice creating new threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a project to practice creating new threads" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="-362" y="-887" key="#com.intellij.ide.util.MemberChooser" timestamp="1591561440172">
       <screen x="-1135" y="-1200" width="1920" height="1200" />
     </state>
     <state x="-362" y="-887" key="#com.intellij.ide.util.MemberChooser/-1135.-1200.1920.1200/785.-1200.1920.1200/0.0.1680.1050@-1135.-1200.1920.1200" timestamp="1591561440172" />
-    <state width="1878" height="343" key="GridCell.Tab.0.bottom" timestamp="1591562173401">
+    <state width="1878" height="343" key="GridCell.Tab.0.bottom" timestamp="1591585665968">
       <screen x="-1135" y="-1200" width="1920" height="1200" />
     </state>
-    <state width="1878" height="343" key="GridCell.Tab.0.bottom/-1135.-1200.1920.1200/785.-1200.1920.1200/0.0.1680.1050@-1135.-1200.1920.1200" timestamp="1591562173401" />
-    <state width="1878" height="343" key="GridCell.Tab.0.center" timestamp="1591562173398">
+    <state width="1878" height="343" key="GridCell.Tab.0.bottom/-1135.-1200.1920.1200/785.-1200.1920.1200/0.0.1680.1050@-1135.-1200.1920.1200" timestamp="1591585665968" />
+    <state width="1878" height="343" key="GridCell.Tab.0.center" timestamp="1591585665965">
       <screen x="-1135" y="-1200" width="1920" height="1200" />
     </state>
-    <state width="1878" height="343" key="GridCell.Tab.0.center/-1135.-1200.1920.1200/785.-1200.1920.1200/0.0.1680.1050@-1135.-1200.1920.1200" timestamp="1591562173398" />
-    <state width="1878" height="343" key="GridCell.Tab.0.left" timestamp="1591562173396">
+    <state width="1878" height="343" key="GridCell.Tab.0.center/-1135.-1200.1920.1200/785.-1200.1920.1200/0.0.1680.1050@-1135.-1200.1920.1200" timestamp="1591585665965" />
+    <state width="1878" height="343" key="GridCell.Tab.0.left" timestamp="1591585665962">
       <screen x="-1135" y="-1200" width="1920" height="1200" />
     </state>
-    <state width="1878" height="343" key="GridCell.Tab.0.left/-1135.-1200.1920.1200/785.-1200.1920.1200/0.0.1680.1050@-1135.-1200.1920.1200" timestamp="1591562173396" />
-    <state width="1878" height="343" key="GridCell.Tab.0.right" timestamp="1591562173400">
+    <state width="1878" height="343" key="GridCell.Tab.0.left/-1135.-1200.1920.1200/785.-1200.1920.1200/0.0.1680.1050@-1135.-1200.1920.1200" timestamp="1591585665962" />
+    <state width="1878" height="343" key="GridCell.Tab.0.right" timestamp="1591585665967">
       <screen x="-1135" y="-1200" width="1920" height="1200" />
     </state>
-    <state width="1878" height="343" key="GridCell.Tab.0.right/-1135.-1200.1920.1200/785.-1200.1920.1200/0.0.1680.1050@-1135.-1200.1920.1200" timestamp="1591562173400" />
-    <state x="-510" y="-929" width="670" height="676" key="search.everywhere.popup" timestamp="1591561874368">
+    <state width="1878" height="343" key="GridCell.Tab.0.right/-1135.-1200.1920.1200/785.-1200.1920.1200/0.0.1680.1050@-1135.-1200.1920.1200" timestamp="1591585665967" />
+    <state x="-575" y="-860" key="Vcs.Push.Dialog.v2" timestamp="1591562383867">
       <screen x="-1135" y="-1200" width="1920" height="1200" />
     </state>
-    <state x="-510" y="-929" width="670" height="676" key="search.everywhere.popup/-1135.-1200.1920.1200/785.-1200.1920.1200/0.0.1680.1050@-1135.-1200.1920.1200" timestamp="1591561874368" />
+    <state x="-575" y="-860" key="Vcs.Push.Dialog.v2/-1135.-1200.1920.1200/785.-1200.1920.1200/0.0.1680.1050@-1135.-1200.1920.1200" timestamp="1591562383867" />
+    <state x="-510" y="-929" width="670" height="676" key="search.everywhere.popup" timestamp="1591585118097">
+      <screen x="-1135" y="-1200" width="1920" height="1200" />
+    </state>
+    <state x="-510" y="-929" width="670" height="676" key="search.everywhere.popup/-1135.-1200.1920.1200/785.-1200.1920.1200/0.0.1680.1050@-1135.-1200.1920.1200" timestamp="1591585118097" />
   </component>
 </project>
