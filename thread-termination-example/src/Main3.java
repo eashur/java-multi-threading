@@ -33,7 +33,7 @@ public class Main3 {
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(new LongComputationTask(new BigInteger("200000"), new BigInteger("100000000")));
 
-        thread.setDaemon(true);
+       // thread.setDaemon(true);
         thread.start();
         Thread.sleep(100);
         thread.interrupt();
